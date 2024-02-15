@@ -1,7 +1,7 @@
 # vesicle-quant
 Quantify vesicle membranes from negative-stain EM images
 
-Built atop [Virly Ananda](https://github.com/virlyananda)'s excellent [EM Image Processing scripts](https://github.com/virlyananda/EM-ImageProcessing).  Check out her other cool projects!
+Built atop my colleague [Virly Ananda](https://github.com/virlyananda)'s excellent [EM Image Processing scripts](https://github.com/virlyananda/EM-ImageProcessing).  Check out her other cool projects!
 
 This python script will take all `*.tif` files in the current working directory, preprocess them with a gaussian blur and dilation, then use thresholding and background noise reduction to quantify total area of features in the image.  Run with `python preprocess.py` in the working directory containing your tif files.
 
